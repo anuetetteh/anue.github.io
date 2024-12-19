@@ -1,0 +1,55 @@
+img{
+    object-fit: cover;
+}
+.textwImage{
+    background: url(images/chicken-egg-factory-feed.jpg) no-repeat;
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+
+}
+.textwImageContainer{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    color: black;
+    margin-top:40px ;
+
+
+}
+.text{
+    position: absolute;
+    font-size: 50px;
+    
+}
+.ImageRadius{
+    border-radius: 10px;
+}
+
+
+
+.textwImageContainer1{
+    display: flex;
+    position: relative;
+    align-items:end;
+    color: black;
+}
+.text1{
+    position: absolute;
+    font-size: 20px;
+    background-color: white
+}
+
+.text2{
+    position: absolute;
+    font-size: 20px;
+    
+}
+
+.ImageGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
